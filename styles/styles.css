@@ -5,12 +5,17 @@ html {
     color: #ffde85
 }
 .yellowtextshadow {
-  color: #ffde85;
-  text-shadow: 0.9px 0.9px 0.9px black;
+    color: #ffde85;
+    text-shadow: 0.9px 0.9px 0.9px black;
 }
 .kfont {
     font-family: 'Kaushan Script', cursive;
     font-size: 20px;
+}
+.smalltext {
+    font-size: 14px;
+    margin: 0 auto;
+    font-weight: normal;
 }
 body {
     margin: 0;
@@ -139,15 +144,6 @@ h1 {
     font-family: 'Kaushan Script', cursive;
     text-decoration: none;
 }
-p{
-    top: 390px;
-    margin: 100px;
-    font-size: 17px;
-    width: 100%;
-    margin: 0 auto;
-    font-weight: normal;
-}
-
 
 /*Mobile Facilities Section - HOME PAGE*/
 
@@ -523,6 +519,11 @@ footer a {
 
 @media screen and (min-width: 765px) {
 
+  p{
+      font-size: 17px;
+      margin: 0 auto;
+      font-weight: normal;
+  }
 
    /*Mob/iPad Navigation Bar - ALL PAGES*/
 
