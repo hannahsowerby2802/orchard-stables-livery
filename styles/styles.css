@@ -503,6 +503,9 @@ footer a {
     text-decoration: none;
     color: inherit;
 }
+.footerimage {
+   width: 110px;
+}
 .footerbox {
     width: 100%;
     padding: 10px 10px 10px 10px;
@@ -644,6 +647,11 @@ footer a {
         color: black;
    }
 
+   /*iPad Footer - ALL PAGES*/
+
+   .footerimage {
+      width: 160px;
+   }
 
     @media screen and (min-width: 1000px) {
 
