@@ -358,6 +358,7 @@ video {
    /* border: 2px solid #362f2d */
 }
 
+
 /*Mobile Obstacles Block - CHAPs PAGE*/
 
 .obstaclesbox {
@@ -428,6 +429,7 @@ video {
 #chapsposter {
     display: none;
 }
+
 
 /*Mobile Contact Block - CONTACT PAGE*/
 
@@ -705,10 +707,6 @@ footer a {
             width: var(--picWidth);
             height: 667px;
        }
-
-
-       /*iPad Slideshow Facilities Section - HOME PAGE*/
-
         .slideshow img {
             width: var(--picWidth);
        }
@@ -735,6 +733,8 @@ footer a {
         footer {
             padding: 6em 1em 2em 1em;
        }
+
+
         @media screen and (min-width: 1250px) {
 
 
