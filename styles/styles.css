@@ -49,7 +49,6 @@ body.contact {
     background-position: center;
 }
 
-
 /*Mobile Navigation Bar - ALL PAGES*/
 
 .logo img {
@@ -87,7 +86,6 @@ nav a.active {
     display: flex;
 }
 
-
 /*Mobile Image Header - HOME PAGE*/
 
 #mobileheader {
@@ -121,7 +119,6 @@ h3{
     width: 100%;
     height: 100%;
 }
-
 
 /*Mobile About Us Section - HOME PAGE*/
 
@@ -204,7 +201,6 @@ img:nth-child(4) {
     animation-delay: 0s;
 }
 
-
 /*Mobile Events Section - HOME PAGE*/
 
 .text-block-two {
@@ -238,7 +234,6 @@ img:nth-child(4) {
     text-decoration: none;
     text-shadow: 1px 1px 1px black;
 }
-
 
 /*Mobile CHAPs Section - HOME PAGE*/
 
@@ -278,7 +273,6 @@ video {
     border: none
 }
 
-
 /*Mobile Background Image - EVENTS PAGE*/
 
 .upcomingevents {
@@ -296,7 +290,6 @@ video {
     text-decoration: none;
 }
 
-
 /*Mobile Upcoming Events- EVENTS PAGE*/
 
 .calendar li {
@@ -308,7 +301,6 @@ video {
     float: left;
     padding-right: 50px;
 }
-
 
 /*Mobile Events Boxes - EVENTS PAGE*/
 
@@ -342,7 +334,6 @@ video {
     margin-left: 0px;
     margin-right: 15px;
 }
-
 
 /*Mobile Facilities List - FACILITIES PAGE*/
 
@@ -455,11 +446,11 @@ video {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-.active, .dot:hover {
+/* .active, .dot:hover {
   transform: scale(1.1);
   transition: 0.3s;
   opacity: 1.0;
-}
+} */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -474,7 +465,6 @@ video {
   from {opacity: .4}
   to {opacity: 1}
 }
-
 
 /*Mobile Price Block - CHAPs PAGE*/
 
@@ -523,7 +513,6 @@ video {
 #chapsposter {
     display: none;
 }
-
 
 /*Mobile Contact Block - CONTACT PAGE*/
 
@@ -576,7 +565,6 @@ video {
     box-sizing: border-box;
     border: 2px solid #ffde85;
 }
-
 
 /*Mobile Footer - ALL PAGES*/
 
@@ -657,7 +645,6 @@ footer a {
         background: #ffde85;
    }
 
-
    /*iPad Slideshow Facilities Section - HOME PAGE*/
 
     .slideshow {
@@ -668,7 +655,6 @@ footer a {
         width: 700px;
    }
 
-
    /*iPad Events Boxes - EVENTS PAGE*/
 
     .events-box {
@@ -677,7 +663,6 @@ footer a {
     .events-box img {
         width: auto;
    }
-
 
    /* iPad Facility Box - FACILITY PAGE*/
 
@@ -695,12 +680,6 @@ footer a {
         float: left;
         display: inline-block;
    }
-
-
-
-/*iPad Obstacles Block - CHAPs PAGE*/
-
-
 
  /*CHAPs Price Box - CHAPs PAGE*/
 
@@ -755,8 +734,8 @@ footer a {
       width: 160px;
    }
 
-    @media screen and (min-width: 1000px) {
 
+    @media screen and (min-width: 1000px) {
 
        /*iPad Navigation Bar - ALL PAGES*/
 
@@ -766,7 +745,6 @@ footer a {
         nav a {
             padding: 50px;
        }
-
 
        /*iPad Image Header - ALL PAGES*/
 
@@ -800,7 +778,6 @@ footer a {
             font-size: 25px
        }
 
-
        /*iPad Slideshow Facilities Section - HOME PAGE*/
 
         .slideshow {
@@ -811,13 +788,11 @@ footer a {
             width: var(--picWidth);
        }
 
-
        /*iPad Upcoming Events Section - EVENTS AND FACILITIES PAGE*/
 
         .upcomingevents {
             margin-top: -370px;
        }
-
 
        /*iPad About CHAPs Section - CHAPs PAGE*/
 
@@ -837,13 +812,11 @@ footer a {
 
         @media screen and (min-width: 1250px) {
 
-
            /*Desktop Navigation Bar - ALL PAGES*/
 
             nav {
                 justify-content: center;
            }
-
 
            /*Desktop Image Header - ALL PAGES*/
 
@@ -852,20 +825,17 @@ footer a {
                 top: 750px;
            }
 
-
            /*Desktop Events section - HOME PAGE*/
 
             .inner-box {
                 padding-bottom: 30px;
            }
 
-
            /*Desktop CHAPs Box - HOME PAGE*/
 
             #leftbox {
                 margin-right: 125px;
            }
-
 
            /*iPad Footer - ALL PAGES*/
 
