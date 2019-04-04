@@ -320,7 +320,7 @@ video {
     margin-left: 15px;
     margin-bottom: 10px;
     border: 2px solid #ffde85;
-    width: 290px;
+    width: 310px;
 }
 .events-box a {
     color: #ffde85;
@@ -417,6 +417,9 @@ video {
 
 /*Mobile Price Block - CHAPs PAGE*/
 
+.pricecolumns {
+  margin-top: 60px;
+}
 .columns {
   float: left;
   width: 100%;
@@ -459,8 +462,8 @@ video {
   text-decoration: none;
   font-size: 18px;
 }
-#chapsposter {
-    display: none;
+.chapsposter {
+  opacity: 0.01;
 }
 
 /*Mobile Contact Block - CONTACT PAGE*/
@@ -747,9 +750,6 @@ footer a {
 
        .upper {
            margin-top: -400px;
-       }
-       #chapsposter {
-         display:block;
        }
 
        /*iPad Footer - ALL PAGES*/
